@@ -39,6 +39,12 @@
     color: var(--black);
 }
 
+@media (min-width: 1199px){
+    .select{
+        width: 330px;
+    }
+}
+
 .select_collapse{
     margin-top: 32px;
     border-radius: 5px;

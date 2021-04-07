@@ -44,6 +44,12 @@
   text-decoration: underline;
 }
 
+@media(max-width: 767px){
+  .content a{
+    color: var(--white) !important;
+  }
+}
+
 .tag {
   position: absolute;
   top: -18px;
